@@ -110,6 +110,8 @@ header nav ul a:hover {
     margin: 50px 0 45px 0;
 }
 
+/* ABOUT JUMBO STYLES */
+
 .about-jumbo {
     background: url("../img/jumbo-about.png");
     height: 150px;
@@ -117,7 +119,7 @@ header nav ul a:hover {
     margin: 50px 0 45px 0;
 }
 
-/* TOP SECTION STYLES START */
+/* HOME/ABOUT PAGES TOP SECTION STYLES START */
 
 .top-content {
     display: flex;
@@ -137,7 +139,7 @@ header nav ul a:hover {
     width: 100%;
 }
 
-/* CENTER SECTION STYLES START */
+/* GENERAL HOME/ABOUT PAGES MIDDLE SECTION STYLES START */
 
 .middle-content {
     margin-bottom: 20px;
@@ -157,13 +159,13 @@ header nav ul a:hover {
     margin-bottom: 0;
 }
 
+/* HOME/ABOUT PAGES GRID STYLES START */
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-/* HOME PAGE BOX GRID STYLES START */
 
 .about-page .middle-content .boxes {
     width: 100%;
