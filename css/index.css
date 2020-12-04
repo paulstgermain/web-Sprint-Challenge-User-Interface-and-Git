@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS RESET END */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +73,54 @@ p {
     margin: 0 auto;
 }
 
+/* HEADER STYLES START */
+
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul a {
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+header nav ul a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.jumbo {
+    background: url("../img/jumbo.jpg");
+    height: 150px;
+    width: 100%;
+    margin: 50px 0 45px 0;
+}
+
+/* ABOUT JUMBO STYLES */
+
+.about-jumbo {
+    background: url("../img/jumbo-about.png");
+    height: 150px;
+    width: 100%;
+    margin: 50px 0 45px 0;
+}
+
+/* HOME/ABOUT PAGES TOP SECTION STYLES START */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,9 +135,23 @@ p {
     padding-bottom: 20px;  
 }
 
+.about-page .top-content .text-container {
+    width: 100%;
+}
+
+/* GENERAL HOME/ABOUT PAGES MIDDLE SECTION STYLES START */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-page .middle-content {
+    width: 100%;
+}
+
+.about-page .middle-content {
+    border: none;
 }
 
 .middle-content h2 {
@@ -95,10 +159,19 @@ p {
     margin-bottom: 0;
 }
 
+/* HOME/ABOUT PAGES GRID STYLES START */
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.about-page .middle-content .boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
@@ -111,6 +184,78 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+/* ABOUT PAGE MIDDLE CONTENT BOX STYLES START */
+
+.about-page .middle-content .about-box {
+    width: 49%;
+    border-bottom: 1px dotted black;
+    margin: 25px 0;
+}
+
+.about-page .middle-content .about-box img {
+    width: 100%;
+}
+
+.about-page .middle-content .about-box h1 {
+    margin-top: 10px;
+}
+
+.about-page .middle-content .about-box button {
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 15px 0;
+    transition: .3s;
+}
+
+.about-page .middle-content .about-box button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+/* BOTTOM SECTION STYLES START */
 
 .bottom-content {
     display: flex;
@@ -125,6 +270,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* FOOTER STYLES START */
 
 footer {
     width: 100%;

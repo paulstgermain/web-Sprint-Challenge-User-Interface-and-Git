@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    I would say: "Semantic HTML is HTML written in such a way that the tags used describe their purpose on the page and/or clearly define differing sections of content on a web page."
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    To put it as Dave said: Block elements are like "bully elements", and as such they'll push other elements out of their way so they can be the only element on a single line, while Inline elements play nicely and sit on the same line as the other elements around them.
 
 3. What are the 4 areas of the box model?
 
+    Margin > Border > Padding > Content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    'align-items' aligns content on an alement's assigned cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is incredibly valuable to teams of developers as a means for everyone to work on the same code base wiithout stepping on each other's toes - so to speak. It allows them to each work on their own branch of development, with a controlled means of merging changes back into the main line of development. Even more, it allows for easy reverting back to a previous version of the given code base should any one developer actually muck any part of it up, even if "irreversibly"!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -100,5 +110,5 @@ Note: Please make sure you are using flexbox to layout your website. Floats, inl
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
-* [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
+* [ ] Ensure your CSS is organized and readable, you've separated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewriting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
