@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* CSS RESET END */
+
 * {
     box-sizing: border-box;
 }
@@ -70,6 +72,8 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/* HEADER STYLES START */
 
 header {
     width: 100%;
@@ -113,6 +117,8 @@ header nav ul a:hover {
     margin: 50px 0 45px 0;
 }
 
+/* TOP SECTION STYLES START */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +136,8 @@ header nav ul a:hover {
 .about-page .top-content .text-container {
     width: 100%;
 }
+
+/* CENTER SECTION STYLES START */
 
 .middle-content {
     margin-bottom: 20px;
@@ -154,6 +162,8 @@ header nav ul a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+/* HOME PAGE BOX GRID STYLES START */
 
 .about-page .middle-content .boxes {
     width: 100%;
@@ -213,6 +223,8 @@ header nav ul a:hover {
     background-color: dodgerblue;
 }
 
+/* ABOUT PAGE MIDDLE CONTENT BOX STYLES START */
+
 .about-page .middle-content .about-box {
     width: 49%;
     border-bottom: 1px dotted black;
@@ -241,6 +253,8 @@ header nav ul a:hover {
     color: white;
 }
 
+/* BOTTOM SECTION STYLES START */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -254,6 +268,8 @@ header nav ul a:hover {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* FOOTER STYLES START */
 
 footer {
     width: 100%;
